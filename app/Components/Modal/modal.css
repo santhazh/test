@@ -1,0 +1,19 @@
+/* This file is mainly used for overriding the react-bootstrap modal according to the modal needs */
+
+.successTextStyles {
+    text-align: center;
+    font-size: 40px;
+}
+
+.successImgStyle {
+    display: inline-block;
+    height: 100px;
+}
+
+div > .modal-content {
+    margin: 40% auto !important;
+}
+
+.popUpBodyStyles {
+    margin: "18px 45px";
+}

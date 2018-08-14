@@ -1,0 +1,46 @@
+/*******************************/
+#mainWrap{ width:100%; float: left;     min-height: calc(100vh - 138px);}
+.bgStyle{
+    background-image: url(../../../assets/Images/Login.png);
+    background-size: cover;
+    width: 100%;
+    min-height: calc(100vh - 138px);
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+.formWrap { width:100%; float:left; padding:30px; max-width: 360px; background-color:#fff; box-sizing:border-box; margin-top:20px;}
+.formWrap form { width:100%; float:left; }
+.formWrap .control-label{ color: #4c4c4c; font-weight: 500;}
+.loginButton { color:#333; background-color: #f1f1f1; width: 100%; float: left; margin-top: 15px; border:0px; padding: 7px 12px;}
+.loginButton:hover{ background-color: #999; color: #fff;}
+.signInTxt{ width: 100%; float: left; padding: 0px; padding-top: 20px; color:#777; margin-bottom: 0px; text-align: center;}
+.signInTxt a:hover{ color:#ff1f2c; text-decoration: none;}
+
+.signupTitle_1{ width:100%; float:left; padding: 5px; text-align: center; font-size: 18px; line-height: 22px; margin-top: 0px;}
+.signupTitle_1 img{ display: inline-block; height: 26px; border: 0px; margin-bottom: 8px;}
+
+.createAccBtn{  color:#fff; background-color: #034078; width: 100%; float: left; margin-top: 15px; border:0px; padding: 7px 12px;}
+
+
+.bannerTitle_1{ width:100%; float:left; padding:10px; text-align: center; font-size:44px; line-height: 22px; margin-top: 0px; color: #FFFFFF;	font-size: 46px;	font-weight: 100;	line-height: 50px; margin: 50px 0px;} 
+.tablewrap{ width:100%; float:left; margin-top: 60px;box-sizing:border-box;}
+.tablewrap table{width: 100%;float: left;box-sizing:border-box;}
+
+.tablewrap th, td {
+    padding: 15px;
+    background-color: white;
+    border: 0.1px solid #d9d9d9;
+    border-collapse: collapse;
+    font-size: 13px;
+    color:gray;
+    font-family: sans-serif;
+}
+.arrow-down{
+
+    width: 0; 
+    height: 0; 
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-top: 50px solid #0000cc;
+  
+}
